@@ -121,3 +121,12 @@ button {
 .section-3 h3 {
   padding-left: 55px;
 }
+
+.section-3 h3 a {
+  color: #596d48;
+  cursor: pointer;
+}
+
+.section-3 h3 a:visited {
+  color: #596d48;
+}
