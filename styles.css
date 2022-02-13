@@ -31,3 +31,17 @@ body {
   color: white;
   font-size: 60px;
 }
+
+.footer p {
+  color: white;
+}
+
+.footer p a {
+  text-decoration: underline;
+  cursor: pointer;
+  color: white;
+}
+
+.footer p a:visited {
+  color: white;
+}
