@@ -133,3 +133,13 @@ button {
 .section-3 h3 a:visited {
   color: #596d48;
 }
+
+.focus:focus {
+  border: 1px solid blue;
+  outline: none;
+}
+
+.error:focus {
+  border: 1px solid red;
+  outline: none;
+}
