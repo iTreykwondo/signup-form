@@ -29,7 +29,7 @@ body {
   gap: 15px;
   justify-content: center;
   margin-bottom: auto;
-  margin-top: auto;
+  margin-top: 200px;
 }
 
 .logo-text {
@@ -62,10 +62,44 @@ body {
   padding-bottom: 70px;
 }
 
+.section-2 {
+  border-bottom: 1px solid black;
+  box-shadow: 0 12px 4px -4px #e0e0e0;
+  padding-bottom: 70px;
+}
+
 .title,
 .subtext,
 .form-title {
   /* margin-top: 100px; */
   padding-left: 55px;
   font-size: 32px;
+}
+
+form {
+  display: flex;
+  gap: 50px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  height: 35px;
+  width: 350px;
+  text-indent: 10px;
+}
+
+.col-1,
+.col-2 {
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 55px;
+}
+
+.col-1 input,
+.col-2 input {
+  margin-bottom: 15px;
 }
