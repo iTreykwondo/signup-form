@@ -63,9 +63,12 @@ body {
 }
 
 .section-2 {
-  border-bottom: 1px solid black;
   box-shadow: 0 12px 4px -4px #e0e0e0;
   padding-bottom: 70px;
+}
+
+.title {
+  padding-right: 30px;
 }
 
 .title,
