@@ -9,8 +9,9 @@ body {
   display: flex;
 }
 
-img {
-  height: 100%;
+.background {
+  background-image: url("./images/background-img.jpg");
+  height: 100vh;
   width: 50%;
 }
 
