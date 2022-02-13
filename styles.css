@@ -103,3 +103,15 @@ input {
 .col-2 input {
   margin-bottom: 15px;
 }
+
+.section-3 {
+  margin-top: 55px;
+}
+
+button {
+  margin-left: 55px;
+}
+
+.section-3 h3 {
+  padding-left: 55px;
+}
