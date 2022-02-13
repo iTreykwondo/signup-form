@@ -1,8 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,700&display=swap");
+
 body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  font-family: "Poppins", sans-serif;
 }
 
 .main {
@@ -52,11 +55,16 @@ body {
 }
 
 .section-1 {
-  margin-top: 100px;
-  padding-left: 55px;
-  max-width: 75%;
+  /* min-width: 75%; */
+  background-color: #faf9f6;
+
+  padding-top: 100px;
+  padding-bottom: 70px;
 }
 
-.title {
+.title,
+.subtext {
+  /* margin-top: 100px; */
+  padding-left: 55px;
   font-size: 32px;
 }
